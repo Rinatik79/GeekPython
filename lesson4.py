@@ -24,3 +24,14 @@ print(single_list)
 # Problem 5:
 product = reduce((lambda x, y: x * y), [i for i in range(100, 1001) if i % 2 == 0])
 print(product)
+
+# Problem 7:
+def fact(n):
+    product = 1
+    for i in range(1, n + 1):
+        product *= i
+        yield product
+
+
+for el in fact(7):
+    print(el)
