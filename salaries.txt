@@ -1,0 +1,7 @@
+Ivanov 15000
+Petrov 19000
+Sidorov 22000
+Ovechkin 25000
+Barashkin 40000
+Rubenshtein 50000
+Pchelkina 15000
