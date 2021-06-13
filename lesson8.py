@@ -249,4 +249,14 @@
 # print(warehouse.current_warehouse_state)
 
 # Problem 7:
+class ComplexNumber:
+    def __init__(self, text):
+        members_list = text.split(" + ")
+        self.real_part = float(members_list[0])
+        self.complex_part = float(members_list[1][:-1])
+
+    def __add__(self, other):
+
+
+x = ComplexNumber("5.2 + 3.3i")
 
